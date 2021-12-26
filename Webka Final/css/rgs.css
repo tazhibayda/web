@@ -1,0 +1,137 @@
+
+#success_message{ display: none;}
+.btn-back{
+    border-radius: 100%;
+    padding: 5px;
+    position: absolute;
+    color: red;
+    background-color: rgba(38, 38, 43, 0.7);
+    margin-left: 10px;
+}
+.glyphicon{
+    /* color: red; */
+}
+.custom-select {
+    -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
+    @media (prefers-reduced-motion: reduce) {
+      .custom-control-label::before,
+      .custom-file-label,
+      .custom-select {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.noselect {
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background-color: #e04545;
+	background-image: linear-gradient(315deg, #2f3131 0%, #ff2222 74%);
+	border: none;
+	border-radius: 50%;
+	transition: 200ms;
+    margin-left: 15px;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.noselect svg {
+	fill: rgb(245, 245, 245);
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.noselect:before {
+	content: 'Back to Top';
+	position: absolute;
+	transform: translateX(-50%) translateY(45px);
+	font-size: 15px;
+	transition: 200ms;
+	color: transparent;
+	font-weight: bold;
+}
+
+.noselect:hover {
+	box-shadow: 0 1px 5px rgba(255, 80, 80, 0.2);
+	width: 50px;
+	height: 50px;
+    opacity: 1;
+}
+label,.s{
+    color: rgb(226, 64, 64);
+    /* text-shadow: rgba(0, 0, 0, 0.7); */
+    text-shadow: -1px -1px 0px rgb(0, 0, 0 , 1), 0 0 5em rgb(255, 0, 0);
+}
+
+.noselect:hover::before {
+	/* color: #fff; */
+    opacity: 1;
+}
+
+
+.noselect:hover svg {
+		/* animation: bounce 2s infinite linear; */
+}
+
+@keyframes bounce {
+	0% {transform: translateX(-50%) translateY(-50%)}
+	25% {transform: translateX(-50%) translateY(-65%)}
+	50% {transform: translateX(-50%) translateY(-50%)}
+	75% {transform: translateX(-50%) translateY(-35%)}
+	100% {transform: translateX(-50%) translateY(-50%)}
+}
+
+.noselect:focus {
+	outline: none;
+}
+.bsc{
+    background-image:  url('/Users/abdulhafiz/Desktop/Webka Final/images/bg_rs.jpeg');
+    background-size: 100%;
+}
+.container{
+    background:rgba(255, 142, 142, 0.5);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.7));
+
+}
+.asd{
+    opacity: 1;
+}
+.btn-dark {
+    color: rgb(255, 0, 0);
+    background-color: #343a40;
+    border-color: #343a40; }
+    .btn-dark:hover {
+      color: #fff;
+      background-color: #23272b;
+      border-color: #1d2124; }
+    .btn-dark:focus, .btn-dark.focus {
+      -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+      box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
+    .btn-dark.disabled, .btn-dark:disabled {
+      color: #fff;
+      background-color: #343a40;
+      border-color: #343a40; }
+    .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
+    .show > .btn-dark.dropdown-toggle {
+      color: #fff;
+      background-color: #1d2124;
+      border-color: #171a1d; }
+      .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
+      .show > .btn-dark.dropdown-toggle:focus {
+        -webkit-box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+        box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
